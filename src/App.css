@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div{
+  padding: 86px 0px;
+  background: linear-gradient(90deg, #000000, #1c0000);
+  color: white;
+  font-family: serif;
+}
+h1 {
+  margin: 0px 0px 0px 590px;
+  position: relative;
+  bottom: 100px;
+}
+h3 {
+  margin: 0px 0px 0px 500px;
+  position: relative;
+  bottom: 60px;
+  right: 250px;
+  text-align: center;
+  text-align-last: center;
+  line-height: 1.5;
+}
+form {
+  margin: 0px 0px 0px 510px;
+}
+input{
+  margin-bottom: 40px;
+  background-color: #222222;
+  border-radius: 5px;
+  font-family: serif;
+  border: #424242;
+  color: white;
+  position: relative;
+  bottom: 20px;
+}
+input.one{
+  margin-bottom: 15px;
+  padding: 10px 195px 10px 5px;
+}
+.Container{
+  display: flex;
+  justify-content: space-between;
+}
+input.two{
+  padding: 10px 10px 10px 5px ;
+}
+input.three{
+  padding: 10px 10px 10px 5px ;
+  position: relative;
+  right: 528px;
+}
+button{
+  background-color: #0045c4;
+  border: 1px solid #0045c4;
+  color: white;
+  margin: 0px 0px 0px 510px;
+  padding: 9px 158px 9px 145px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #205ac6;
+  border: 1px solid #205ac6;
+  color: white;
+  margin: 0px 0px 0px 510px;
+  padding: 9px 158px 9px 145px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:active{
+  background-color: rgb(37, 116, 25);
+  border: 1px solid rgb(37, 116, 25);
+  color: white;
+  margin: 0px 0px 0px 510px;
+  padding: 9px 158px 9px 145px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button > h4{
+  margin-left: 20px;
+  font-size: medium;
+}
